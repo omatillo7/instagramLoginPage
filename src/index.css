@@ -45,8 +45,9 @@ a {
 h1 {
   /* font-family: 'Dancing Script', cursive; */
   font-family: 'Satisfy', cursive;
-  font-weight: 30;
-  font-size: 40px;
+  font-weight: 40;
+  color: #444444;
+  font-size: 38px;
 }
 
 /*body background color*/
