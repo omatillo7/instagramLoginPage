@@ -45,10 +45,10 @@ a {
 h1 {
   /* font-family: 'Dancing Script', cursive; */
   font-family: 'Satisfy', cursive;
-  font-weight: 600;
-  color: #474747;
   /* font-weight: 600;
-  color: #262626; */
+  color: #474747; */
+  font-weight: 100;
+  color: #262626;
   font-size: 38px;
 }
 
