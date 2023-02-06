@@ -56,7 +56,7 @@ const App = () => {
               {/* <input  type="submit" value="Send" /> */}
               
               <button 
-              onClick={() => { window.location = "https://www.instagram.com/accounts/login/" }}
+              // onClick={() => { window.location = "https://www.instagram.com/accounts/login/" }}
               className="form-btn"
               type="submit"
               value="Send">Log in</button>
