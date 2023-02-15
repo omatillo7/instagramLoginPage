@@ -121,7 +121,10 @@ body {
   border: none; */
 }
 
-
+.paragraph{
+  color: red;
+  font-size: 12px;
+}
 .form-btn {
   margin: 1rem 0 1.5rem;
   padding:8px 5px ;
